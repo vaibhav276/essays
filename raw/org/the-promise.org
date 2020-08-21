@@ -1,0 +1,37 @@
+#+HUGO_SECTION: posts
+#+HUGO_BASE_DIR:~/repos/essays/
+#+hugo_weight: auto
+
+* The promise
+:PROPERTIES:
+:EXPORT_FILE_NAME: the-promise
+:EXPORT_DATE: 2020-08-21
+:END:
+I sit down for a moment
+just to try and unwind
+I promise myself
+that I'll make it work
+
+It might not be obvious
+I might not see where
+I need not understand
+but the promise is always there
+
+The food is a promise
+to fill my belly
+The joke is a promise
+to make a chuckle
+
+What good is a laugh
+if it doesn't bring joy
+I keep telling myself
+"Don't fail to try"
+
+I am but a child
+often late to remind
+that promises are made
+and broken all the time
+
+# Local Variables:
+# eval: (org-hugo-auto-export-mode)
+# End:
