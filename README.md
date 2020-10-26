@@ -1,4 +1,7 @@
-# Dependencies
+# Published URL
+https://vaibhav276.github.io/essays/
+
+# Build Dependencies
 - Emacs with org mode
 
 # Build process
