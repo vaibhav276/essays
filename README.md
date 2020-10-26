@@ -1,25 +1,7 @@
 # Dependencies
-- Hugo (https://gohugo.io/)
+- Emacs with org mode
 
-# Compilation
-Input posts are written in org format (https://orgmode.org/) and converted to
-hugo markdown format by ox-hugo plugin (https://ox-hugo.scripter.co/). Once in
-markdown format, hugo converts it into static html site
-
-# Build
-- During development
-
-``` sh
-# Start hugo server
-hugo server
-
-# Start hugo server with drafts enabled
-hugo server -D
-```
-
-- Build steps
-
-``` sh
-# Generate static site in "docs"
-hugo
-```
+# Build process
+1. Go to post and use Emacs org mode export feature to export it into html
+2. Go to index.org and add/update its link
+3. Export index.org as html too

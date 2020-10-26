@@ -1,10 +1,8 @@
-+++
-title = "My experience with god"
-author = ["Vaibhav Pujari"]
-date = 2014-10-19
-draft = false
-weight = 1001
-+++
+#+TITLE: My experience with God
+#+DATE: 2014-10-19
+#+AUTHOR: Vaibhav Pujari
+#+OPTIONS: num:nil author:nil toc:nil e:nil timestamp:nil html-style:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../style.css"/>
 
 Ever since I was a child, I have always found myself questioning the established
 norms about religion and god. The image of lord Ram with a bow and arrow, lord
@@ -149,4 +147,4 @@ remember that the real objective is not the path you take or how you do it. The
 real objective is to be in control, to be the master.
 
 It’s nothing more than that really, all the religious wars are totally
-unnecessary and BS\* as far as I can think.
+unnecessary and BS* as far as I can think.

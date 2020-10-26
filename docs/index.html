@@ -1,120 +1,243 @@
-<!DOCTYPE html>
-<html>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.64.0" />
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Vaibhav Pujari  </title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="alternate" type="application/rss+xml" href="https://vaibhav276.github.io/essays/index.xml" title="Vaibhav Pujari" />
-	<meta property="og:title" content="Vaibhav Pujari" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://vaibhav276.github.io/essays/" />
-<meta property="og:updated_time" content="2020-08-21T00:00:00+05:30" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Vaibhav Pujari"/>
-<meta name="twitter:description" content=""/>
-<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Random Essays and Thoughts</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
 
-	<link rel="stylesheet" type="text/css" media="screen" href="https://vaibhav276.github.io/essays/css/normalize.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="https://vaibhav276.github.io/essays/css/main.css" />
-
-	
-	<script src="https://vaibhav276.github.io/essays/js/main.js"></script>
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.cacheClassElem = elem.className;
+         elem.cacheClassTarget = target.className;
+         target.className = "code-highlighted";
+         elem.className   = "code-highlighted";
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(elem.cacheClassElem)
+         elem.className = elem.cacheClassElem;
+       if(elem.cacheClassTarget)
+         target.className = elem.cacheClassTarget;
+     }
+    /*]]>*///-->
+// @license-end
+</script>
 </head>
-
 <body>
-	<div class="container wrapper">
-		<div class="header">
-	<base href="https://vaibhav276.github.io/essays/">
-	<h1 class="site-title"><a href="https://vaibhav276.github.io/essays/">Vaibhav Pujari</a></h1>
-	<div class="site-description"><nav class="nav social">
-			<ul class="flat"></ul>
-		</nav>
-	</div>
+<div id="content">
+<h1 class="title">Random Essays and Thoughts
+<br />
+<span class="subtitle">Vaibhav Pujari</span>
+</h1>
+<p>
+From time to time, I found that I have ran into discussions with smart people about intersting topics vastly spread across all that is there to be seen and experienced. Sometimes, I stumble into my own thoughts going into depths of enquiry when I read something interesting or watch a movie. When this happens, its easy to go haywire about things and never reach a useful conclusion, and some fun might be missed if I let things go unexplored. I try to write as an informal attempt to capture the thought processess of the moment (like a photograph captures the visual experience of a moment). I'd be surprized (pleasently) if someone other than me spends any time to read them.
+</p>
 
-	<nav class="nav">
-		<ul class="flat">
-			
-		</ul>
-	</nav>
+<ul class="org-ul">
+<li><a href="posts/data-information-technology.html">Data, Information and Technology</a> (Oct 23, 2020)</li>
+<li><a href="posts/the-promise.html">The promise (poem)</a> (Aug 21, 2020)</li>
+<li><a href="posts/concrete-mind-in-a-plastic-world.html">Concrete mind in a plastic world</a> (Jan 2, 2020)</li>
+<li><a href="posts/art-computational-and-assisted-creativity.html">Art, Computational and Assisted Creativity</a> (Jul 12, 2019)</li>
+<li><a href="posts/45-minutes-that-matter.html">45 Minutes that matter</a> (Jun 28, 2018)</li>
+<li><a href="posts/my-experience-with-god.html">My experience with God</a> (Oct 19, 2014)</li>
+</ul>
 </div>
-
-
-		
-
-		<div class="recent-posts section">
-			<h2 class="section-header">
-				Recent posts
-			</h2>
-			<div class="posts">
-				
-				
-				
-				<div class="post">
-					<div class="meta">Aug 21, 2020</div>
-					<a class="title" href="/essays/posts/the-promise/">The promise</a> &mdash;
-					<span class="description">
-						
-						I sit down for a moment just to try and unwind I promise myself that I'll make it work It might not be obvious I might not see where I need not understand but the promise is always there The food is a promise to fill my belly The joke is a promise to make a chuckle What good is a laugh if it doesn't bring joy I keep telling myself &quot;Don't fail to try&quot; I am but a child often late to remind that promises are made and broken all the time &hellip;
-						
-					</span>
-				</div>
-				
-				<div class="post">
-					<div class="meta">Jan 2, 2020</div>
-					<a class="title" href="/essays/posts/concrete-mind-in-a-plastic-world/">Concrete mind in a plastic world</a> &mdash;
-					<span class="description">
-						
-						I was born in 1985. And the world has certainly changed quite a bit since then. And I can&rsquo;t help but reflect back on the role technology has played in it. But have I examined it properly?
-Old world A couple of decades back, life was having slightly more uncertainty. You wake up early for school on a winter morning and find out there is no electricity today morning. You are waiting for the school bus for 30 minutes and realize maybe you missed it today because maybe you were a couple of minutes late at arriving at the pickup point and maybe today the bus was on time.&hellip;
-						
-					</span>
-				</div>
-				
-				<div class="post">
-					<div class="meta">Jul 12, 2019</div>
-					<a class="title" href="/essays/posts/art-computational-and-assisted-creativity/">Art, Computational and Assisted Creativity</a> &mdash;
-					<span class="description">
-						
-						This is an essay about how I see art, what I think computational creativity is and some things I would like to express about assisted creativity. Before I begin, here is a disclaimer. I am not an artist, neither I am a computer scientist or an Artificial intelligence practitioner. I am just a software engineer, who keeps hearing about these things from various people around me and have thus formed an opinion on these things.&hellip;
-						
-					</span>
-				</div>
-				
-				<div class="post">
-					<div class="meta">Jun 28, 2018</div>
-					<a class="title" href="/essays/posts/45-minutes-that-matter/">45 Minutes that matter</a> &mdash;
-					<span class="description">
-						
-						One of the things that have worked well for me in the past few years of my career is that I have had the good fortune to interact with all kinds of people who applied for a position of software engineer in the company that I work for. While each interview I conduct is different from another in many ways because its dependent on many variables, there is one common thing that I say to the candidate almost every time — that the interview is going to last for about 45 to 60 mins and we will go through some programming exercises during this time.&hellip;
-						
-					</span>
-				</div>
-				
-				<div class="post">
-					<div class="meta">Oct 19, 2014</div>
-					<a class="title" href="/essays/posts/my-experience-with-god/">My experience with god</a> &mdash;
-					<span class="description">
-						
-						Ever since I was a child, I have always found myself questioning the established norms about religion and god. The image of lord Ram with a bow and arrow, lord Krishna with a flute, or lord Ganesha with a elephant head and a bulbous belly are all examples of things that are so natural to one’s imagination. On the evening of Diwali, we used to keep our front door open and light up the whole house hoping for goddess Lakshmi to walk in and bless our home with ceaseless wealth and prosperity and on the evening of Holi, we used to burn the symbol of evil and feel tremendous about it.&hellip;
-						
-					</span>
-				</div>
-				
-				
-
-
-			</div>
-		</div>
-	</div>
-	<div class="footer wrapper">
-	<nav class="nav">
-		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
-	</nav>
+<div id="postamble" class="status">
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
-
-
-
-
 </body>
 </html>

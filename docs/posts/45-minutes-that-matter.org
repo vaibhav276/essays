@@ -1,8 +1,8 @@
-+++
-title = "45 Minutes that matter"
-date = 2018-06-28
-draft = false
-+++
+#+TITLE: 45 Minutes that matter
+#+DATE: 2018-06-28
+#+AUTHOR: Vaibhav Pujari
+#+OPTIONS: num:nil author:nil toc:nil e:nil timestamp:nil html-style:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../style.css"/>
 
 One of the things that have worked well for me in the past few years of my
 career is that I have had the good fortune to interact with all kinds of people
@@ -27,10 +27,7 @@ other when we are working on real world problems, yet this is not the common
 understanding we have when we’re evaluating a person for a programming job.
 
 There are three main problems with this:
-
-
-### False positives {#false-positives}
-
+** False positives
 Since the sample size (time for each interview) is very small, it is way too
 easy for a person to “make believe” that he/she is a good programmer. After all,
 it is not expected to go beyond the basics in any area given the time
@@ -45,9 +42,7 @@ as a good hold of a “workable” approach is demonstrated. The current (and
 traditional) approach to this leaves too much room for false positives in my
 opinion.
 
-
-### True negatives {#true-negatives}
-
+** True negatives
 It may surprise you if just after talking about great internet resources I tell
 you that so many people just don’t use them when they prepare for the interview.
 Reason could be a lack of time to prepare, lack of awareness of the better
@@ -63,9 +58,7 @@ that all good programmers will appear crude, because if that were the case it
 would be easier to spot one, but that a significant number of them will be just
 unprepared up to the standards set by rest of the competition.
 
-
-### Emotional evaluation {#emotional-evaluation}
-
+** Emotional evaluation
 This is a big one, but I think also unfortunately the most ignored one. Consider the emotional state of a typical candidate. I would go ahead and assume that any candidate is looking for a job probably because something is not right at his or her current job. Now, there can be some people who would change jobs for minor reasons, but I think it would be safe to assume that most people don’t want to go through the grind of a job change until there is a pressing reason. Either they don’t like their manager or their manager doesn’t like them, or something underwhelming is going on with the current work they have on hands. There could be all sorts of reasons that can cause discomfort at multiple levels and force a job change. And in most cases, the candidate would be looking to get it over with as soon as possible so that things can resume to normal and he or she can do the thing they do best — actually working on a project. This does not look like the environment for expecting highest level of productivity from a person even in a comfortable environment, and an interview room is probably not one of the most comfortable places to chill out. So, it is likely that the candidate is going to perform much worse than what he or she is capable of on a fine day. We’re not even going into other factors like performance anxiety etc. over here. Just the emotional state is enough to tip the balance against their favor anyways. Does this mean we should be a little “soft” when evaluating any candidate? But what about making sure we’re meeting the standards required for the job in question?
 
 Now, I know that there are many candidates for which none of these factors
@@ -76,9 +69,7 @@ standards. The current state of things only work for those who are well prepared
 and can clearly demonstrate their skill beyond any doubt, or who can masquerade
 as good programmers for a few 45 minute sessions.
 
-
-## My two cents for a solution {#my-two-cents-for-a-solution}
-
+* My two cents for a solution
 Ok, so what could be done to make things better? I am thinking of an approach
 that primarily addresses emotional state problem, and then takes on the other
 problems. A service that constantly samples skill level regardless of whether or
@@ -104,9 +95,7 @@ relevant questions. On a primary level, the emotional state can be expected to
 be much less of a problem when justifying the past problems the candidate has
 already solved. It also makes for a better, more effective conversation I think.
 
-
-## How is this a win-win? {#how-is-this-a-win-win}
-
+* How is this a win-win?
 For programmers, it makes sense to invest towards maintaining a good score so
 that in the future, a good score is a good head start for a job search.
 For employers, it gives a very efficient search capability by looking up

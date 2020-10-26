@@ -1,11 +1,10 @@
-+++
-title = "The promise"
-date = 2020-08-21
-draft = false
-weight = 1001
-+++
+#+TITLE: The promise
+#+DATE: 2020-08-21
+#+AUTHOR: Vaibhav Pujari
+#+OPTIONS: num:nil author:nil toc:nil e:nil timestamp:nil html-style:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../style.css"/>
 
-```nil
+#+BEGIN_SRC
 I sit down for a moment
 just to try and unwind
 I promise myself
@@ -30,4 +29,4 @@ I am but a child
 often late to remind
 that promises are made
 and broken all the time
-```
+#+END_SRC

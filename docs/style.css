@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body {
+    background-color: #f6f6ee;
+}
+
+h1, h2, h3, h4 {
+    color: #000066;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3, h4 {
+    text-align: left;
+    font-size: 30px;
+}
+
+p {
+    color: #000066;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+
+div {
+    padding: 15px;
+}
